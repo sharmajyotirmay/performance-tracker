@@ -143,19 +143,7 @@ function App(props) {
         2: { _id: "2", tag: "personal", color: "teal" },
         4: { _id: "4", tag: "academic", color: "blue" },
       },
-    },
-    {
-      _id: uuidv4(),
-      name: "Win hackathon",
-      description: "Make best task planner app ever",
-      timeAdded: new Date(),
-      duration: 2000,
-      isActive: false,
-      hashTags: {
-        0: { _id: "0", tag: "health", color: "green" },
-        1: { _id: "1", tag: "love", color: "red" },
-      },
-    },
+    }
   ]);
   return (
     <div>
@@ -186,7 +174,7 @@ function App(props) {
                   {darkState ? <Brightness7Icon /> : <Brightness4Icon />}
                 </IconButton>
                 <Link
-                  href="https://github.com/Juggernaut9/get-it-done"
+                  href="https://github.com/sharmajyotirmay/performance-tracker"
                   target="_blank"
                   rel="noopener noreferrer"
                   color="inherit"
